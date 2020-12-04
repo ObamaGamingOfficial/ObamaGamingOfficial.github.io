@@ -1,0 +1,35 @@
+body {
+  background: d2dc9d url(images/blackgoose.png) no-repeat center 100px fixed;
+  background-color: #faf2e4;
+  margin: 0 10%;
+  font-family: sans-serif;
+  }
+  header {
+    background: url(images/purpledot.png) center top repeat-x;
+    background:
+    url(images/purpledot.png) left top repeat-y,
+    url(images/purpledot.png) right top repeat-y,
+    url(images/gooseshadow.png) 90% bottom no-repeat;
+    background-color: rgba(255, 255, 255, .5);
+    margin-top: 0;
+    padding: 3em 1em 2em 1em;
+    text-align:center;
+  }
+
+
+h1 {
+  text-align: center;
+  font-family: serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: 1px solid #57b1dc;
+  margin-top: 30px;
+}
+
+h2 {
+  color: #d1633c;
+  font-size: 1em;
+}
+img {
+	max-width: 100%;
+}
