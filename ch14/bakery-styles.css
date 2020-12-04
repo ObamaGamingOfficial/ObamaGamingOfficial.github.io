@@ -1,4 +1,10 @@
 @charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inhert;
+}
 body {
   font-family: Georgia, serif;
   font-size: 100%;
@@ -12,6 +18,7 @@ a:focus, a:hover, a:active { color: #F9AB33; }
 
 /* header styles */
 header {
+  height: 15em;
   color: white;
   background:  url(images/croissants_banner.jpg) no-repeat center center;
   background-size: cover; 
@@ -41,6 +48,9 @@ nav ul li {
 
 /* main "products" styles */
 main {
+  border-radius: 25px;
+  border: double 4px #EADDC4;
+  padding: 1em;
   font-family: 'Stint Ultra Expanded', cursive;
   background-color: white;
   line-height: 1.8em;
@@ -59,11 +69,14 @@ p.more {
 
 /* aside "hours" styles */
 aside {
+  padding: 1em;
+  padding-left: 45px;
   background: url(images/scallop.png) repeat-y left top;
   background-color: #F6F3ED;
 }
 /* misc styles */
 footer {
+  padding: 1em;
   color: #EADDC4;
   text-align: center;
   font-size: .8em;
