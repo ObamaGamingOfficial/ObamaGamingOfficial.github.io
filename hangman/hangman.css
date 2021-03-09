@@ -1,0 +1,50 @@
+html {
+    font-size: 18px;
+}
+body {
+    width: 100vw;
+    margin: 0;
+}
+/* typography */
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Goudy Bookletter 1911', serif;
+    letter-spacing: .2rem;
+    transform: scale(1, .9);
+}
+p {
+    font-family: 'Barlow', sans-serif;
+}
+
+#main {
+    display: grid;
+    grid-template-rows: repeat(10, 20rem);
+    grid-template-columns: repeat(2, 50%);
+}
+
+#percentCorrect {
+    grid-area: 1/2/2/3;
+}
+#score {
+    grid-area: 2/2/2/3
+}
+#gallows {
+    grid-area: 1/1/5/2
+}
+#hint {
+    grid-area: 5/1/6/3
+}
+#correctlyGuessed {
+    grid-area: 6/1/7/3
+}
+#guessed {
+    grid-area: 8/2/9/3
+}
+#letters {
+    grid-area: 8/2/9/3
+}
+#guess {
+    gris-area: 8/2/9/3
+}
+#button {
+    grid-area: 9/2/10/3
+}
